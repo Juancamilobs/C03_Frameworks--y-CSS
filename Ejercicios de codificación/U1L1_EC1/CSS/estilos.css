@@ -1,0 +1,127 @@
+.contenido{
+  text-align: center;
+}
+.encabezado{
+  width: 100%;
+  text-align: center;
+  background-color: green;
+  font-size: 2.0em;
+}
+#album{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: column;
+}
+.cubiculo{
+  display: column;
+}
+ #cubiculo1{
+  text-align: center;
+  background-color: #FF0000;
+  padding: 0.5vw;
+  margin: 0.7vw;
+  width:33%;
+
+}
+  #foto1{
+  text-align: center;
+  border: 7vw;
+  border-color: black;
+  background-color: orange;
+  padding: 0.3vw;
+  margin: 0.2vw;
+  }
+#foto1 img{
+  width: 60%;
+}
+
+ #cubiculo2{
+  text-align: center;
+  background-color: #FF0000;
+  padding: 0.5vw;
+  margin: 0.7vw;
+  width:33%;
+}
+#foto2{
+  text-align: center;
+  border: 1.3vw;
+  border-color: red;
+  background-color: yellow;
+  padding: 0.3vw;
+  margin: 1.7vw;
+}
+#foto2 img{
+  width: 65%;
+}
+#cubiculo3{
+  text-align: center;
+  background-color: #FF0000;
+  padding: 0.5vw;
+  margin: 0.7vw;
+  width:33%;
+}
+#foto3{
+  text-align: center;
+  border: 1.3vw solid;
+  border-color: black;
+  background-color: blue;
+  padding: 1.3vw;
+  margin: 0.1vw;
+}
+#foto3 img{
+  width: 55%;
+}
+#cubiculo4{
+  text-align: center;
+  background-color: #FF0000;
+  padding: 0.5vw;
+  margin: 0.7vw;
+  width:33%;
+}
+#foto4{
+  text-align: center;
+  border: 0.3vw solid black;
+  background-color: red;
+  padding: 1.9vw;
+  margin: 0.7vw;
+}
+#foto4 img{
+  width: 62%;
+}
+#cubiculo5{
+  text-align: center;
+  background-color: #FF0000;
+  padding: 0.5vw;
+  margin: 0.7vw;
+  width:33%;
+}
+#foto5{
+  text-align: center;
+  border: 1.3vw solid;
+  border-color: blue;
+  background-color: purple;
+  padding: 0.9vw;
+  margin: 0.75vw;
+}
+#foto5 img{
+  width: 68%;
+}
+#cubiculo6{
+  text-align: center;
+  background-color: #FF0000;
+  padding: 0.5vw;
+  margin: 0.7vw;
+  width:33%;
+}
+#foto6{
+  text-align: center;
+  border: 1.3vw solid;
+  border-color: black;
+  background-color: orange;
+  padding: 2.3vw;
+  margin: 3.1vw;
+}
+#foto6 img{
+  width: 73%;
+}
