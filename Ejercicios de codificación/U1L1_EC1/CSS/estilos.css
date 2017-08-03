@@ -11,10 +11,19 @@
   width: 85%;
   margin-left: auto;
   margin-right: auto;
-  display: column;
+  display: block;
 }
-.cubiculo{
-  display: column;
+.cubiculosuperior{
+  display: flex;
+  width: 100%;
+}
+.cubiculomedio{
+  display: flex;
+  width: 100%;
+}
+.cubiculoinferior{
+  display: flex;
+  width: 100%;
 }
  #cubiculo1{
   text-align: center;
@@ -124,4 +133,65 @@
 }
 #foto6 img{
   width: 73%;
+}
+#cubiculo7{
+  text-align: center;
+  background-color: #FF0000;
+  padding: 0.5vw;
+  margin: 0.7vw;
+  width:33%;
+}
+#foto7{
+  text-align: center;
+  border: 1.3vw solid black;
+  background-color: #8A4B08;
+  padding: 1.06vw;
+  margin: 0.35vw;
+}
+#foto7 img{
+  width: 67%;
+}
+#cubiculo8{
+  text-align: center;
+  background-color: #FF0000;
+  padding: 0.5vw;
+  margin: 0.7vw;
+  width:33%;
+}
+#foto8{
+  text-align: center;
+  border: 0.3vw solid black;
+  background-color: #0B6138;
+  padding: 1.54vw;
+  margin: 0.35vw;
+}
+#foto8 img{
+  width: 79%;
+}
+#cubiculo9{
+  text-align: center;
+  background-color: #FF0000;
+  padding: 0.5vw;
+  margin: 0.7vw;
+  width:33%;
+}
+#foto9{
+  text-align: center;
+  border: 1.3vw solid;
+  border-color: blue;
+  background-color: #FF00FF;
+  padding: 0.45vw;
+  margin: 0.95vw;
+}
+#foto9 img{
+  width: 63%;
+}
+#cubiculo1, #cubiculo4, #cubiculo7{
+  box-sizing: border-box;
+}
+#cubiculo2, #cubiculo5, #cubiculo8{
+  box-sizing: content-box;
+}
+#cubiculo3, #cubiculo3, #cubiculo9{
+  box-sizing: padding-box;
 }
