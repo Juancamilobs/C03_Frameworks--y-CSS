@@ -1,42 +1,29 @@
 .cinema-body{
   background-image: url("../images/cines.jpg");
-  background-position:center;
-  background-repeat: no-repeat;
-  background-size: 100% 150%;;
-  max-width: 100%;
   height: 100%;
-  padding-right: 0;
-  padding-left: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 0;
 }
 .navbar-fixed-top{
   width: 100%;
   height: 9%;
-  background: rgba(0,51,102,0.9);
-  border: none;
-  padding: 0;
+  background-color: rgba(0,76,151,0.95);
 }
-.logo{
-    width: 5.5em;
-    vertical-align: middle;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 0.5em;
-
+.logo-img{
+  height:70px;
+  margin:6px;
 }
-.logo img{
-  vertical-align: middle;
-
-}
-.container-fluid {
+.container-fluid{
   margin-top: 64px;
 }
-.jumbotron {
-  background: url("../images/cines2.jpg");
-  border-radius: 0px !important;
+.jumbotron{
+  background-image: url("../images/cines2.jpg");
+  min-height: 500px;
   margin-bottom: 0px;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
+  border-radius: 0px !important;
 
 }
 .welcome-title{
@@ -45,7 +32,7 @@
 }
 .jumbotron-img{
   margin-top: 20px;
-  width: 9.0em;
+  height: 80px;
 }
 .jumbotron-text{
   font-size: 16px;
@@ -56,37 +43,80 @@
   margin-top: 20px;
 }
 .img-social{
-  width: 40px;
   height: 40px;
+  width: 40px;
 }
 .titulo-cartelera{
   min-height: 45px;
-  background-color: #082D5E;
-  width: auto;
+  background-color: rgba(0,76,151,0.95);
 }
 .titulo-text{
   font-size: 18px;
   font-weight: bolder;
-  color: white;
-  padding: 10px;
-  background-color: #082D5E;
-  width: 100%;
-}
-.movies-row{
-  background-color: rgba(0,76,152,0.8);
-  width: auto;
-  margin: 0;
+  color:white;
+  padding:10px;
 }
 .movie-title{
   color:white;
+  text-transform: capitalize;
 }
 .img-movies{
-  max-height: 260px;
-  padding: 6px;
+  height: 260px;
+  padding:6px;
   margin-top: 22px;
-  max-width: 95%;
+  max-width: 100%;
 }
-.left-column{
-  border-right: dashed 1px black;
-  padding: 0;
+.movies-row{
+   background-color:rgba(0,51,102,0.8);
+   min-height: 350px;
+   padding-left: 15px;
+   padding-right: 15px;
+ }
+ .movies-column{
+   margin-top: 5px;
+   background-color: rgb(0,51,102);
+   min-height: 330px;
+   border: dashed 1px black;
+ }
+ .left-column{
+   border-right: dashed 1px black;
+ }
+.services-text{
+  color:white;
+  margin-top: 13px;
 }
+ @media (max-width: 770px) {
+   .right-column{
+     display: none;
+   }
+   .logo-img{
+     height: 50px;
+   }
+   .movies-row{
+     padding-left: 0px;
+     padding-right: 0px;
+     min-height: 250px;
+   }
+   .movies-column{
+     min-height: 230px;
+   }
+   .jumbotron{
+     min-height: 400px;
+   }
+   .jumbotron-img{
+     width:80px;
+     margin-top: 20px;
+   }
+   .img-movies{
+     height: 133px;
+     padding: 6px;
+     max-width: 100%;
+   }
+   h2{
+     font-size: 22px;
+   }
+   .titulo-cartelera{
+     font-size: 15px;
+   }
+
+ }
