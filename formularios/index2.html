@@ -16,7 +16,7 @@
     </div>
     <form>
       <div class="row small-stack medium-unstak">
-        <div class="columns">
+        <div class="column">
           <label>texto
             <input type="text" placeholder="Texto" required aria-describedby="ayudaTexto">
           </label>
@@ -34,7 +34,7 @@
             <input type="number" placeholder="Numero">
           </label>
         </div>
-      <div class="columns">
+      <div class="column">
         <label>Contraseña
           <input type="password" placeholder="contraseña">
         </label>
@@ -50,7 +50,16 @@
         <label>Semana
           <input type="week">
         </label>
+        <label>Texto largo
+        <textarea name="textoLargo" rows="8" cols="40">Inserte el texto Largo</textarea>
+        </label>
       </div>
+    </div>
     </form>
+
+    <script src="../Foundation/js/vendor/jquery.js"></script>
+    <script src="../Foundation/js/vendor/what-input.js"></script>
+    <script src="../Foundation/js/vendor/foundation.js"></script>
+    <script src="../Foundation/js/app.js"></script>
   </body>
 </html>
