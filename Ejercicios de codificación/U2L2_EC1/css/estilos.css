@@ -1,5 +1,7 @@
 .cinema-body{
-  background-color: gray;
+  background-image: url("https://cdn23.merca20.com/wp-content/uploads/2016/08/cines.jpg");
+  height: 100%;
+  width: 100%;
 }
 .navbar-fixed-top{
   width: 100%;
