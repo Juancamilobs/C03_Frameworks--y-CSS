@@ -1,0 +1,114 @@
+.logo-estore{
+  font-size: 25px;
+}
+.fila-iconos{
+  word-spacing: 20px;
+  padding-right: 10px;
+}
+.topbar{
+  background-color: rgba(39,117,19,0.35);
+  border-radius: 0 0 6px 6px;
+}
+.menu-inicio{
+  color: rgba(39,117,19,0.65);
+}
+
+.topbutton{
+  padding-top: 15px;
+  margin-top: 1px;
+  border-radius: 6px 6px 6px 6px;
+}
+
+.lowbutton{
+  margin-top: 1px;
+  background-color: rgba(39,117,19,0.35);
+  border-radius: 6px 6px 6px 6px;
+  padding-left: 10px;
+}
+.bloquecontenido{
+  text-align: left;
+  font-size: 16px;
+}
+.titulo{
+  border-bottom: solid 1px gray;
+  padding-bottom: 5px;
+}
+.item-bloque{
+
+  background-color: rgba(5,86,117,0.5);
+
+}
+.item-bloque-img{
+  width:110px;
+  height: 95px;
+}
+.item-nombre{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.vermas{
+  color: #084B8A;
+  font-size: 13px;
+}
+.busqueda{
+  padding: 0px;
+}
+.item-busqueda{
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 0px;
+}
+.bordeinf{
+  border-bottom: solid 1px gray;
+}
+.botonbuscar{
+  margin-top: 10px;
+}
+@media (max-width:500px) {
+  .menu-inicio{
+    font-size: 8px;
+  }
+  .logo-estore{
+    font-size: 14px;
+  }
+  .fila-iconos{
+  text-align: center;
+  padding: 0px;
+  word-spacing: 8px;
+  }
+  .bloquecontenido{
+    font-size: 14px;
+  }
+  .busqueda{
+    font-size: 8px;
+    padding-right: 1px;
+  }
+  label{
+    font-size: 8px;
+  }
+  textarea {
+    margin-bottom: 0px;
+  }
+  option,select{
+    font-size: 8px;
+  }
+  .help-text{
+    font-size: 8px;
+    padding-top: 10px;
+  }
+  .item-bloque-img{
+    width:70px;
+    height: 65px;
+  }
+  .item-nombre{
+    font-size: 8px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+  }
+  .vermas{
+    color: #084B8A;
+    font-size: 6px;
+  }
+
+
+}
