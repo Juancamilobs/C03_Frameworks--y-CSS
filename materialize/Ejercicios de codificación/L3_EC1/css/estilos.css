@@ -1,0 +1,42 @@
+body{
+  font-size: 16px;
+}
+.topbar{
+  min-height: 4rem !important;
+}
+div[class*="columna"]{
+  min-height: 50rem !important;
+  border: 1px solid #eceff1;
+
+  border:0px!important;
+
+}
+div[class*="bloque"]{
+ height: 25rem;
+ margin-bottom: 0px !important;
+}
+
+.columna-chat{
+  padding: 0px !important;
+}
+.escribir-publicacion{
+  min-height: 7rem !important;
+}
+.contenedor-publicacion{
+  min-height: 7rem !important;
+  padding: 2rem !important;
+}
+.logo-img{
+  height: 3rem !important;
+
+  margin-top: 0.5rem!important;
+}
+.contenedor-noticias{
+  min-height: 50rem !important;
+  margin-top: 1rem !important;
+  padding: 0.5rem !important;
+}
+.contenedor-noticias img{
+  border: 0.6rem solid #00e5ff !important;
+  border-radius: 5px;
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css" type="text/css" media="screen,projection">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/materialize.css" type="text/css" media="screen,projection">
+
+    <title>Contenedores y Sistema Rejilla</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="row #00e5ff cyan accent-3 black-text topbar">
+        <div class="s12 m8 l5 col busquedalogo">
+          <div class="col s2 contenedor-logo">
+            <img src="img/logo.png" alt="logo" class="logo-img">
+          </div>
+          <div class="input-field col s9 contenedor-busqueda">
+            <textarea id="texto" class="materialize-textarea busqueda"></textarea>
+            <label for="texto" class="lightgrey">Busqueda</label>
+          </div>
+          <div class="col s1 contenedor-icono">
+              <i class="material-icons">search</i>
+          </div>
+        </div>
+          <div class="col m4 l4 offset-l3 hide-on-small-only">
+            <div class="col botonesaccion">
+                <a href="#"<a href="#"class="btn-floating btn-small green waves-effect"><i class="material-icons">email</i></a>
+                <a href="#"<a href="#"class="btn-floating green waves-effect"><i class="material-icons">share</i></a>
+                <a href="#"<a href="#"class="btn-floating green waves-effect"><i class="material-icons">get_app</i></a>
+            </div>
+          </div>
+        </div>
+
+      <div class="col s2 m2 l2 #e0e0e0 grey lighten-2 white-text columna-group push-s10">
+        <ul class="collection">
+          <li class="collection-item avatar">
+            <img src="img/collectionitem2.png" class="responsive-img circle">
+            <span class="title black-text flow-text hide-on-med-and-down">Food Court</span>
+            <p class="black-text collectionitem-info hide-on-med-and-down">123 miembros</p>
+          </li>
+          <li class="collection-item avatar">
+            <img src="img/collectionitem1.svg" class="responsive-img circle">
+            <span class="title black-text flow-text hide-on-med-and-down">Hippies</span>
+            <p class="black-text collectionitem-info hide-on-med-and-down">148 miembros</p>
+          </li>
+          <li class="collection-item avatar">
+            <img src="img/collectionitem3.svg" class="responsive-img circle">
+            <span class="title black-text flow-text hide-on-med-and-down">Familia</span>
+            <p class="black-text collectionitem-info hide-on-med-and-down">12 miembros</p>
+          </li>
+          <li class="collection-item avatar">
+            <img src="img/collectionitem4.jpg" class="responsive-img circle">
+            <span class="title black-text flow-text hide-on-med-and-down">TechRed</span>
+            <p class="black-text collectionitem-info hide-on-med-and-down">25 miembros</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col s10 m7 l7 columna-principal z-depth-2 pull-s2">
+        <div class="row">
+          <div class="col s12 m12 l8 columna-publicaciones ">
+            <div class="card escribir-publicacion #0277bd light-blue darken-3">
+              <div class="card-content">
+                <div class="row tapublicacion">
+                  <label for="publicacion" class="white-text">Escribe una publicación</label>
+                  <div class="input-field col s12">
+                    <textarea name="publicacion" id="publicacion" class="materialize-textarea #0d47a1 blue darken-4 white-text tapublicacion"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col s9 left-align">
+                    <a href="#"class="btn-floating teal waves-effect"><i class="material-icons">code</i></a>
+                    <a href="#"class="btn-floating teal waves-effect"><i class="material-icons">edit</i></a>
+                    <a href="#"class="btn-floating teal waves-effect"><i class="material-icons">keyboard_voice</i></a>
+                  </div>
+                <div class="col s2 left-align">
+                  <a href="#"class="btn teal waves-effect hide-on-small-and-down right-align"><i class="material-icons">send</i></a>
+                  <a href="#"class="btn-floating teal waves-effect hide-on-med-and-up right-align"><i class="material-icons">send</i></a>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="card  #0277bd light-blue darken-3">
+              <div class="card-content">
+                <div class="activator card-title white-text">
+                  S3: Juan Camilo Benavides
+                </div>
+                <p class="white-text">
+                  Este es un video de  prueba para el ejercicio de codificacion que estoy realizando
+                </p>
+              </div>
+              <div class="card-image">
+                <div class="video-container">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/9O1D26kiCk8" frameborder="0" allowfullscreen></iframe>
+                  <div class="card-title" class="white-text">Comercial Next University</div>
+                </div>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title">S3: Comercial Next University<i class="material-icons right black"></i>close</span>
+                <p>  Este es un video de  prueba para el ejercicio de codificacion que estoy realizando con una descripcio más larga para el elemento card-reveal</p>
+              </div>
+            </div>
+            <div class="card #0277bd light-blue darken-3">
+              <div class="card-reveal">
+                <span class="card-title">S4: Experiencia con NextU<i class="material-icons right black"></i>close</span>
+                <p class="flow-text  grey-text">
+                  Hola, quiero contarles acerca de mi experiencia con este curso para aprender a ser desarrollador Web. He aprendido bastante acerca de este
+                  mundo de posibilidades y nos puedo esperar a aplicarlo en mi propia página Web.
+                </p>
+              </div>
+              <div class="card-content ">
+                <div class="activator card-title white-text">
+                  S4: Catalina Azuero
+                </div>
+                <blockquote class="white-text">
+                  Con este ejercicio estoy aplicando los conocimientos que he adquirido en Materialize CSS y  debo decir que gracias a los videos, pruebas y ejercicios de codificación que <head>
+                  realizado me ha parecido el framework mas facil y completo de todos.
+                  </head>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col l3 offset-l1 columna-noticias hide-on-med-and-down">
+            <div class="card contenedor-noticias #0277bd light-blue darken-3 white-text">
+              <h6 >Últimas noticias</h6>
+              <p class="truncate">
+                El nuevo vehiculo de BMW esta reluciendo por su diseño interior en la convencion internacion de Nueva Guinea, sus diseñadores dicen estar muy emocionados por el lanzamiento de la nueva
+                serie "1.2i" la cual unirá el motor deportivo.
+              </p>
+              <img class="responsive-img" src="img/noticia1.jpg">
+              <p class="truncate">
+                En un intento por escaparse de la policia, tras haber asesinado a sus hijos.
+              </p>
+              <img class="responsive-img" src="img/noticia2.jpg">
+              <p class="truncate">
+                La ONU (o UN por sus siglas en ingles)
+              </p>
+              <img class="responsive-img" src="img/noticia3.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col m3 l3 hide-on-small-only columna-chat">
+        <div class="row bloque-feed  #388e3c green darken-2">
+          <ul class="collection with-header">
+            <h5 class="collection-header #388e3c green darken-2 white-text">Ultimas Actividades</h5>
+            <li class="collection-item avatar #388e3c green darken-2 white-text"  style="padding-left:1rem">
+              <button class="btn-floating teal waves-effect"><i class="material-icons">account_circle</i></button>
+              <span class="title black-text flow-text hide-on-med-and-down">Juan Camilo Benavides</span>
+              <p class="black-text collectionitem-info hide-on-med-and-down center-align">Has iniciado sesión</p>
+            </li>
+            <li class="collection-item avatar #388e3c green darken-2 white-text"  style="padding-left:1rem">
+              <button class="btn-floating teal waves-effect"><i class="material-icons">code</i></button>
+              <span class="title black-text flow-text hide-on-med-and-down">Catalina Azuero</span>
+              <p class="black-text collectionitem-info hide-on-med-and-down center-align">Ha respondido tu solicitud</p>
+            </li>
+            <li class="collection-item avatar #388e3c green darken-2 white-text"  style="padding-left:1rem">
+              <button class="btn-floating teal waves-effect"><i class="material-icons">bookmark_border</i></button>
+              <span class="title black-text flow-text hide-on-med-and-down">Juan Camilo Benavides</span>
+              <p class="black-text collectionitem-info hide-on-med-and-down center-align">Has guardado contenido nuevo</p>
+            </li>
+            <li class="collection-item avatar #388e3c green darken-2 white-text"  style="padding-left:1rem">
+              <button class="btn-floating teal waves-effect"><i class="material-icons">border_color</i></button>
+              <span class="title black-text flow-text hide-on-med-and-down">Juan Camilo Benavides</span>
+              <p class="black-text collectionitem-info hide-on-med-and-down center-align">Has editado contenido nuevo</p>
+            </li>
+          </ul>
+        </div>
+        <div class="row bloque-chat #00e676 green accent-3">
+          <ul class="collection with-header">
+            <h5 class="collection-header #00e676 green accent-3 white-text">Chat</h5>
+            <li class="collection-item  #00e676 green accent-3 white-tex">
+              <div class="chip">
+                <img src="img/user-icon.png" alt="">
+                Catalina Azuero
+              </div>
+            </li>
+            <li class="collection-item  #00e676 green accent-3 white-tex">
+              <div class="chip">
+                <img src="img/user-icon.png" alt="">
+                Nohora Sanchez
+              </div>
+            </li>
+            <li class="collection-item  #00e676 green accent-3 white-tex">
+              <div class="chip">
+                <img src="img/user-icon.png" alt="">
+                Alvaro Benavides
+              </div>
+            </li>
+            <li class="collection-item  #00e676 green accent-3 white-tex">
+              <div class="chip">
+                <img src="img/user-icon.png" alt="">
+                Alejandra Perez
+              </div>
+            </li>
+            <li class="collection-item  #00e676 green accent-3 white-tex">
+              <div class="chip">
+                <img src="img/user-icon.png" alt="">
+                Daniel Giraldo
+              </div>
+            </li>
+            <li class="collection-item  #00e676 green accent-3 white-tex">
+              <div class="chip">
+                <img src="img/user-icon.png" alt="">
+                Nicolas Villalba
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="fixed-action-btn click-to-toggle hide-on-small-only" style="bottom:20rem; left:24px; width:56px;">
+        <a href="#" class="btn-floating btn-large light-blue waves-effect"><i class="material-icons">settings</i></a>
+        <ul>
+          <li><a href="#" class="btn-floating blue"><i class="material-icons">phonelink_setup</i></a></li>
+          <li><a href="#" class="btn-floating coal"><i class="material-icons">error_outline</i></a></li>
+          <li><a href="#" class="btn-floating green"><i class="material-icons">lock</i></a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>
